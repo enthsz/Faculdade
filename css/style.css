@@ -1,0 +1,116 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte principal */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    line-height: 1.6; /* Define a altura da linha para facilitar a leitura */
+    color: #333; /* Define a cor do texto principal */
+    background-color: #f4f4f4; /* Define a cor de fundo da página */
+}
+
+/* Estilo para o cabeçalho e navegação */
+header {
+    background-color: #007BFF; /* Cor de fundo azul para o cabeçalho */
+    color: white; /* Cor do texto branco */
+    padding: 15px 0; /* Preenchimento interno do cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão */
+    margin: 0; /* Remove as margens padrão */
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista na horizontal */
+    margin: 0 15px; /* Define um espaço entre os itens da lista */
+}
+
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    transition: color 0.3s ease; /* Anima a mudança de cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px; /* Preenchimento interno das seções principais */
+}
+
+section {
+    background: white; /* Cor de fundo branco para as seções */
+    margin: 20px auto; /* Define margem superior e inferior, e centraliza a seção */
+    padding: 20px; /* Preenchimento interno das seções */
+    border-radius: 8px; /* Arredonda os cantos das seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve às seções */
+    max-width: 800px; /* Define a largura máxima das seções */
+}
+
+section h1 {
+    color: #007BFF; /* Cor do título das seções */
+    margin-bottom: 15px; /* Espaço abaixo dos títulos */
+}
+
+section p {
+    margin-bottom: 10px; /* Espaço abaixo dos parágrafos */
+}
+
+section ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento interno das listas */
+}
+
+section ul li {
+    background-color: #f9f9f9; /* Cor de fundo para itens da lista */
+    margin-bottom: 10px; /* Espaço abaixo dos itens da lista */
+    padding: 10px; /* Preenchimento interno dos itens da lista */
+    border-radius: 4px; /* Arredonda os cantos dos itens da lista */
+}
+
+section ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #007BFF; /* Cor dos links */
+    font-weight: bold; /* Deixa o texto dos links em negrito */
+    transition: color 0.3s ease; /* Anima a mudança de cor ao passar o mouse */
+}
+
+section ul li a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para o formulário de contato */
+form {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    flex-direction: column; /* Organiza os elementos em uma coluna */
+}
+
+form label {
+    font-weight: bold; /* Deixa os rótulos do formulário em negrito */
+    margin-top: 10px; /* Espaço acima dos rótulos */
+}
+
+form textarea {
+    resize: vertical; /* Permite redimensionar a caixa de texto apenas na vertical */
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #007BFF; /* Cor de fundo azul para o rodapé */
+    color: white; /* Cor do texto branco */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Preenchimento interno do rodapé */
+    position: fixed; /* Fixa o rodapé na parte inferior da tela */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Define que o rodapé ocupa toda a largura da tela */
+}
+
+footer p {
+    margin: 0; /* Remove as margens padrão */
+    font-size: 0.9rem; /* Reduz ligeiramente o tamanho do texto */
+}
